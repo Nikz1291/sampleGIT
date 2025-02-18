@@ -1,49 +1,22 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.wrapper{
-    background-color: rgba(156, 234, 253, .3);
-    text-align: center;
-    display: relative;
-    padding: 220px;
-    align-items: center;
-    width: 400px;
-    border-radius: 40px;
-    border-width: 4px;
-    border: 2px none;
-    padding: 10px 20px 30px 40px;
-    margin-left: 500px;
-} 
-input::placeholder{
-    color: brown;
-    text-decoration: none;
-}
-
-h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.container-fluid{
+    height: 100vh;
+    width: 10%;
+    background-color: rgb(194, 198, 211);
+    text-decoration:dotted;
 
 }
-button{
-    border-radius: 5px;
-    background-color: rgb(44, 190, 8);
-    padding: 5px;
-    width: 150px;
+.nav justify-content-center{
+    color: aliceblue;
+    margin-bottom: 200px;
 }
-body{
-    background-image: url(images/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(156, 234, 253, 0.5);
-    justify-content: center;
-    align-content: center;
-    min-height: 100vb;
-   
+.box-info{
+    width: 100%;
 }
-
-.wrapper h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-
+.container-col2{
+    min-width: 4px;
 }
