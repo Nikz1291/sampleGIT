@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 120px;
+    background: rgba(90, 86, 86,.1);
+    display: flex;
+    
+}
+
+.navigation{
+    margin-left: 850px;
+    padding: 3px;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding-left: 25px;
+    font-weight: 500;
+
+    transition: .3s;
+    align-items: right;
+    justify-content: right;
+}
+
+nav a:hover,
+nav a.active {
+    color: rgb(255, 55, 0);
+}
+.hob{
+    margin-left:670px;
+    margin-top: 210px;
+}
+.bus{
+    margin-left:460px;
+    margin-top: 200px;
+}
+section {
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-size: 100px;
+    color: white;
+    font-weight: 500;
+}
+
+.slides{
+    width: 55%;
+    height: 350px;
+    margin-bottom: 140px;
+    font-weight: 500;
+    margin-left: 350px;
+}
+.slides1{
+    width: 500px;
+    height: 350px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top:100px ;
+   border: 5px solid rgb(0, 0, 0);
+   
+}
+
+.me{
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pics{
+    
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    margin-bottom: 150px;
+    align-items: center;
+    align-content: center;
+    margin-left: 290px;
+    margin-top: 100px;
+   
+}
